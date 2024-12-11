@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<TodoPage />}/>
+      <Route path="/todo" element={<TodoPage />}/>
       <Route path="/dnd" element={<DndPage />}/>
     </Routes>
     </BrowserRouter>
