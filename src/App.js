@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/todo" element={<TodoPage />}/>
-      <Route path="/dnd" element={<DndPage />}/>
+      <Route path="/todo/dnd" element={<DndPage />}/>
     </Routes>
     </BrowserRouter>
   );
