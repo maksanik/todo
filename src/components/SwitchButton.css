@@ -1,0 +1,19 @@
+.switch-button {
+    display: block;
+    position: fixed;
+    right: 100px;
+    top: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ff6666;
+    color:white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+}
+.switch-button:hover {
+    background-color: #ff4d4d;
+}
