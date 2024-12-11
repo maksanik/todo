@@ -2,19 +2,19 @@ import React from 'react';
 import './App.css';
 import TodoPage from './pages/TodoPage';
 import DndPage from './pages/DndPage';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 
 
 function App() {
   
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
-      <Route path="/todo" element={<TodoPage />}/>
-      <Route path="/todo/dnd" element={<DndPage />}/>
-    </Routes>
-    </BrowserRouter>
+        <Route path="/" element={<TodoPage />}/>
+        <Route path="/dnd" element={<DndPage />}/>
+      </Routes>
+    </HashRouter>
   );
 }
 
